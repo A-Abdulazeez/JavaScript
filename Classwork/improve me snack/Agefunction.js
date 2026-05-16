@@ -1,12 +1,11 @@
-const ageinput = (userAge)=>{
+function userAge(age) {
 
-if (userAge < 18) 
+if (age <= 12)
 return "You are a child"
 
-else if (userAge == 18) 
+else if (age > 12 && age <= 19)
 return "You are a teen"
 
 else 
 return "You are an adult"
 }
-

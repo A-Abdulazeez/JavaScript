@@ -1,5 +1,5 @@
 function hoursToMinutes(hours){
-const hoursToMinute = hours * 60
+const minute = hours * 60
 
-return hoursToMinute
+return minute
 }
